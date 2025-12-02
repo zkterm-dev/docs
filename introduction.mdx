@@ -1,23 +1,10 @@
-
----
-title: Introduction
-description: 'Universal Zero-Knowledge Terminal for Privacy-First Blockchain Applications'
----
-
-<img
-  className="block dark:hidden"
-  src="/images/hero-light.png"
-  alt="zkTerm Hero"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/hero-dark.png"
-  alt="zkTerm Hero"
-/>
-
 ## Welcome to zkTerm
 
-zkTerm is a universal zero-knowledge terminal that unifies the entire ZK ecosystem into one powerful CLI. Build privacy-preserving applications across multiple chains with cryptographic primitives, identity solutions, compressed storage, and more.
+### Your Privacy Hub for the Digital Age
+
+zkTerm puts **you in control** of your digital life. Send private transactions, store encrypted files, and own your identity - all in one secure terminal. No middlemen. No surveillance. Just you.
+
+Whether you're protecting your assets, proving who you are without revealing personal data, or building the next privacy-first app - zkTerm is your gateway to true digital sovereignty.
 
 <CardGroup cols={2}>
   <Card
@@ -25,210 +12,119 @@ zkTerm is a universal zero-knowledge terminal that unifies the entire ZK ecosyst
     icon="terminal"
     href="https://zkterm.io/terminal"
   >
-    Start building with ZK primitives instantly
+    Start using zkTerm now - free and instant
+  </Card>
+  <Card
+    title="Decentralized Access"
+    icon="globe"
+  >
+    In Development - unstoppable access coming soon
   </Card>
   <Card
     title="zkTerm Explorer"
     icon="chart-network"
     href="https://zkterm.io/explorer"
   >
-    Browse users, wallets, and transactions
+    Visual dashboard for wallets, tokens, files, zkID status, and more
   </Card>
   <Card
     title="ZK Ecosystem"
     icon="shield-check"
-    href="/zk-ecosystem/overview"
+    href="/#"
   >
-    Explore all integrated ZK technologies
+    Explore zkID, zkStorage, zkToolkit, and more
   </Card>
   <Card
-    title="API Reference"
+    title="For Builders"
     icon="code"
     href="/api-reference"
   >
-    Complete REST API documentation
+    API docs and developer tools
   </Card>
 </CardGroup>
 
 ## What is zkTerm?
 
-zkTerm solves the biggest problem in zero-knowledge development: **ecosystem fragmentation**. Instead of learning different tools for each ZK technology, zkTerm provides one unified interface for:
+zkTerm unifies the fragmented zero-knowledge ecosystem into a single terminal. Instead of juggling multiple tools, SDKs, and chains - access everything from one place.
 
-- **zkID** - Privacy-preserving universal identity
-- **zkCompression** - Solana state compression (1000x cost reduction)
-- **zkToolkit** - Complete cryptographic primitives library
-- **zkStorage** - Encrypted IPFS with zkSNARK proofs
-- **zkAuth** - Passwordless social login with STARK proofs
+ZK technology is powerful but scattered across different chains, tools, and standards. zkTerm bridges them all - Solana today, Starknet and Zcash coming soon.
 
-## Quick Start
+### What You Can Do
 
-### 1. Access the Terminal or Explorer
+- **Own Your Identity** - Create a privacy-preserving ID that works everywhere
+- **Store Files Securely** - Encrypt and save files that only you can access
+- **Manage Tokens** - View, send, and compress your crypto assets
+- **Prove Without Revealing** - Verify things about yourself without sharing personal data
 
-Visit [zkterm.io/terminal](https://zkterm.io/terminal) for the CLI or [zkterm.io/explorer](https://zkterm.io/explorer) to browse zkTerm user data.
+### Built for Freedom
 
-REST API available at `https://zkterm.io/api/`
+- **Your Keys, Your Control** - Private keys never leave your device
+- **No Sign-ups Required** - Just connect and start using
+- **Works Everywhere** - Access from any browser, any device
+- **Decentralized Access** - Unstoppable mirror coming soon *(In Development)*
 
-### 2. Create Your Identity
+**ZK Ecosystem:**
 
-```bash
-zkid create
-```
-
-Generate a privacy-preserving `did:zk` identity with dual-chain verification (Solana + Starknet).
-
-### 3. Explore Cryptographic Primitives
-
-```bash
-zk toolkit help
-```
-
-Access 10 modules: hash, commit, merkle, range, sign, nullifier, field, ec, shamir, proof.
-
-### 4. Upload Encrypted Files
-
-```bash
-zk storage upload secret.pdf
-```
-
-Client-side AES-256-GCM encryption with Groth16 zkSNARK password verification.
-
-### 5. Compress Solana Tokens
-
-```bash
-compress <mint_address> <amount>
-```
-
-Reduce storage costs by 1000x using Light Protocol compression.
+- **zkID** - Your private, universal identity
+- **zkStorage** - Encrypted file storage only you can access
+- **zkCompression** - Save up to 1000x on token storage fees
+- **zkToolkit** - Cryptographic primitives (hash, merkle, proofs, and more)
+- **zkAuth** - Login with Google/GitHub, no passwords needed *(coming soon)*
+- **Explorer** - Visual dashboard for all your data
 
 ## Why zkTerm?
 
 <AccordionGroup>
-  <Accordion title="Unified Interface">
-    One terminal for all ZK technologies. No need to switch between different tools, frameworks, or CLIs.
+  <Accordion title="Privacy Without Complexity">
+    Protect your data and identity without being a tech expert. zkTerm handles the complex cryptography - you just use it.
   </Accordion>
-  <Accordion title="Privacy by Default">
-    All operations use zero-knowledge proofs. Your data, identity, and transactions stay private.
+  <Accordion title="You Own Everything">
+    Your keys, your identity, your files - all stay under your control. No company can lock you out or access your data.
   </Accordion>
-  <Accordion title="Cross-Chain Compatible">
-    Works across Solana, Starknet, and Ethereum with unified proof verification.
+  <Accordion title="One Place for Everything">
+    Identity, storage, tokens, proofs - all in one terminal. No jumping between apps or services.
   </Accordion>
-  <Accordion title="Production Ready">
-    Battle-tested cryptography with Groth16, STARK, and Ed25519 proofs on mainnet.
+  <Accordion title="Works on Solana">
+    Fully integrated with Solana blockchain. Starknet and Zcash support coming soon.
   </Accordion>
-  <Accordion title="Developer First">
-    Clean CLI, comprehensive API, TypeScript SDK, and extensive documentation.
+  <Accordion title="Always Accessible">
+    Access from any browser. Decentralized mirror coming soon for unstoppable access.
+  </Accordion>
+  <Accordion title="For Builders Too">
+    Developers get CLI tools, comprehensive API, TypeScript SDK, and full documentation.
   </Accordion>
 </AccordionGroup>
 
 ## Architecture
 
-zkTerm is built on a modern, scalable stack:
+zkTerm combines **decentralized access** with powerful ZK services:
 
 ```
 ┌─────────────────────────────────────────┐
-│         zkTerm Terminal (CLI)           │
-│   React + TypeScript + Vite + XTerm     │
+│         Multiple Access Points          │
+│                                         │
+│   Standard  →  zkterm.io/terminal       │
+│   Mirror    →  Decentralized backup     │
+│   Explorer  →  zkterm.io/explorer       │
 └─────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────┐
-│         REST API (Express.js)           │
+│         ZK Services Layer               │
 │    zkID • zkStorage • zkToolkit         │
 │    zkCompression • zkAuth               │
 └─────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────┐
 │      Blockchain & Storage Layer         │
-│  Solana • Starknet • IPFS • PostgreSQL  │
+│         Solana • Starknet • IPFS        │
 └─────────────────────────────────────────┘
 ```
 
-**Tech Stack:**
-- **Frontend**: React, TypeScript, Vite, TailwindCSS
-- **Backend**: Express.js, Node.js
-- **Database**: PostgreSQL with Drizzle ORM
-- **Blockchain**: Solana (Helius RPC), Starknet
-- **ZK Libraries**: circomlibjs, snarkjs, starknet.js
-- **Storage**: IPFS (Pinata), Google Cloud Storage
-
-## Key Features
-
-### zkID - Universal Identity
-
-```bash
-zkid create          # Create privacy-preserving identity
-zkid verify          # Generate Ed25519 proof
-zkid status          # Check on-chain verification
-```
-
-- `did:zk:[12 chars]` universal DID format
-- Dual-chain verification (Solana + Starknet)
-- Ed25519 cryptography
-- Cairo smart contract on Starknet
-
-### zkCompression - Solana Optimization
-
-```bash
-compress <mint> <amount>     # Compress tokens
-decompress <mint> <amount>   # Decompress tokens
-zk tokens                    # View portfolio
-```
-
-- 1000x storage cost reduction
-- Light Protocol integration
-- Automatic retry polling
-- Full SPL token compatibility
-
-### zkToolkit - Cryptographic Primitives
-
-```bash
-zk toolkit hash poseidon "data"    # Hash functions
-zk field add 5 7                   # Field arithmetic
-zk ec mulbase 12345                # Elliptic curves
-zk proof generate                  # Groth16 proofs
-```
-
-- 10 complete modules
-- ZK-circuit optimized
-- Production-ready primitives
-- Command-line + API access
-
-### zkStorage - Encrypted Files
-
-```bash
-zk storage upload <file>       # Encrypt & upload
-zk storage download <cid>      # Download & decrypt
-zk storage verify <cid>        # Verify ZK proof
-```
-
-- Client-side AES-256-GCM encryption
-- IPFS storage via Pinata
-- Groth16 zkSNARK proofs
-- SHA-256 checksum validation
-
-### zkAuth - Passwordless Login
-
-```bash
-zkauth login google           # Login with Google
-zkauth login github           # Login with GitHub
-zkauth status                 # Check auth status
-```
-
-- Web3Auth social login
-- STARK proofs on Starknet
-- No passwords or seed phrases
-- Quantum-resistant cryptography
-
-### zkTerm Explorer - Decentralized Data Browser
-
-**Visit:** [zkterm.io/explorer](https://zkterm.io/explorer)
-
-- Browse all zkTerm users and their zkIDs
-- View Starknet & Solana wallets with real-time balances
-- Explore transaction history (compressions, uploads, verifications)
-- Live activity feed across the network
-- **Fully decentralized:** Hosted on IPFS via Crust Network
-- **No servers, no downtime** - unstoppable interface
-- Privacy-preserving: Only public blockchain data visible
+**How It Works:**
+- **Your Terminal** - Runs in your browser, keys stay on your device
+- **ZK Services** - Privacy-preserving operations with zero-knowledge proofs
+- **Blockchains** - On-chain verification on Solana (live) and Starknet (coming soon)
+- **Distributed Storage** - Your files, encrypted and stored across the network
 
 ## Use Cases
 
@@ -249,7 +145,7 @@ zkauth status                 # Check auth status
     Trade and earn without exposing wallet balances
   </Card>
   <Card title="Cross-Chain Proofs" icon="link">
-    Verify proofs across Solana, Starknet, and Ethereum
+    Verify proofs across Solana, Starknet, and Zcash
   </Card>
 </CardGroup>
 
